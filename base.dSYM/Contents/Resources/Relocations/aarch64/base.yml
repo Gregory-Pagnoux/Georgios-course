@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gregory-pagnoux/Documents/prog/C++/base'
+relocations:     []
+...
