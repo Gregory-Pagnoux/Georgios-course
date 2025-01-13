@@ -16,8 +16,8 @@ struct student{
 
 // 46 first names
 string fNameList[] = {"Gregory", "Laurent", "Alexis", "Matteo", "Lena", "Clementine", "Maxime", "Mathis", "Lucas", "Emilien", "Vivien", "Paul", "Enoal", "Vianney", "Julian", "Yann-Mael", "Michel", "Salah", "Thibaud", "Alexandre", "Abde", "Antoine", "Aurelien", "Axel", "Benoit", "Camille", "David", "Guillaume", "Elone", "Enzo", "Evan", "Habi", "Jason", "Loic", "Manech", "Mariem", "Mathias", "Max", "Pavlo", "Pierre", "Quentin", "Remy", "Robin", "Thomas", "Tino", "Victor"};
-// 51 names
-string sNameList[] = {"Pagnoux", "Bouquin", "Lefin", "De Germain", "Curel", "Caron", "Despaux", "Lebel", "Megnan", "Nowak", "Namir", "Bouton", "Santos", "Lasselin", "Adam", "Riff", "Bopp", "Aubard", "Marlier", "Polard", "Pascucci", "Reine", "Chinsy", "Makran", "Thizeau", "Prevost", "Fernandez", "David", "De Keyn", "Bistrel", "Gayat", "Cuahonte", "Delille", "Guillouche", "Uhring", "Deramchi", "Cailleau", "Grosso", "Nogues", "Laguens", "Zaiane", "Gagnepain", "Bernard", "Prendi", "Gorin", "Clement", "Charles", "Goumy", "Planchard", "Gabet", "Leroy"};
+// 52 names
+string sNameList[] = {"Pagnoux", "Bouquin", "Lefin", "De Germain", "Curel", "Caron", "Despaux", "Lebel", "Megnan", "Nowak", "Namir", "Bouton", "Santos", "Lasselin", "Adam", "Riff", "Bopp", "Aubard", "Marlier", "Polard", "Pascucci", "Reine", "Chinsy", "Makran", "Thizeau", "Prevost", "Fernandez", "David", "De Keyn", "Bistrel", "Gayat", "Cuahonte", "Delille", "Guillouche", "Uhring", "Deramchi", "Cailleau", "Grosso", "Nogues", "Laguens", "Zaiane", "Gagnepain", "Bernard", "Prendi", "Gorin", "Clement", "Charles", "Goumy", "Planchard", "Gabet", "Leroy", "Kakal"};
 // 5 schools
 string schoolList[] = {"42", "ALGOSUP", "Paris University", "Science Po", "Sorbonne"};
 

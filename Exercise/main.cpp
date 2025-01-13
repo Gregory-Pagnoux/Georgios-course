@@ -26,7 +26,13 @@
 //------------------------------------------------------------------------------------//
 
 #include "createStudent.h"
+#include "mergeSort.h"
+#include "terminalCommand.h"
 
 int main(){
     createStudent();
+    mergeSort( ,0 ,);
+    if(){
+
+    }
 }
