@@ -32,8 +32,12 @@ int main() {
     cout << "In-order traversal of characters (sorted by ID):" << endl;
     characterBST.inOrderTraversal();
 
-    // Search for a character by level
-    int searchLevel = 20;
+    // Search for a character by ID
+    int searchLevel;
+    cout << "delete a character by puting the ID : "<< endl;
+    cin >> searchLevel;
+    cout << endl;
+    
     RpgClass* foundCharacter = characterBST.search(searchLevel);
     if (foundCharacter) {
         cout << "\nCharacter with level " << searchLevel << " found: " << foundCharacter->getName() << endl;
@@ -41,10 +45,13 @@ int main() {
         cout << "\nCharacter with level " << searchLevel << " not found!" << endl;
     }
 
-    // Remove a character by level
-    int removeLevel = 15;
-    characterBST.remove(removeLevel);
-    cout << "\nIn-order traversal after removal of character with level " << removeLevel << ":" << endl;
+    // Remove a character by ID
+    int removeID;
+    cout << "delete a character by puting the ID : "<< endl;
+    cin >> removeID;
+    cout << endl;
+    characterBST.remove(removeID);
+    cout << "\nIn-order traversal after removal of character with level " << removeID << ":" << endl;
     characterBST.inOrderTraversal();
 
     return 0;
