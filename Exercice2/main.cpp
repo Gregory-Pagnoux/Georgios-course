@@ -8,13 +8,13 @@ using namespace std;
 
 int main() {
     // Create RpgClass objects
-    RpgClass Character1("Arthas", "Paladin", "Hammer", 3, 0);
+    RpgClass Character1("Arthas", "Paladin", "Hammer", 3, 5);
     RpgClass Character2("Aro", "Sorcer", "Wand", 35, 1);
-    RpgClass Character3("Beatis", "Paladin", "Knife", 20, 2);
+    RpgClass Character3("Beatis", "Paladin", "Knife", 20, 4);
     RpgClass Character4("Zanita", "Dwarf", "Sword", 15, 3);
-    RpgClass Character5("Ramatrok", "Sorcer", "Book", 20, 4);
-    RpgClass Character6("Angel", "Elf", "dagger", 15, 5);
-    RpgClass Character7("Malik", "Elf", "dagger", 18, 6);
+    RpgClass Character5("Ramatrok", "Sorcer", "Book", 20, 6);
+    RpgClass Character6("Angel", "Elf", "dagger", 15, 2);
+    RpgClass Character7("Malik", "Elf", "dagger", 18, 7);
 
     // Create a BST for storing RpgClass objects
     BST characterBST;
