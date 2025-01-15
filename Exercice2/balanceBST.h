@@ -19,18 +19,22 @@ class BST {
 public:
     BST() : root(nullptr) {}
 
+    // Insert function to add new node to the graph
     void insert(RpgClass* character) {
         root = insertHelper(root, character);
     }
 
+    // Remove function to remove all nodes to the graph with a given level
     void remove(int level) {
         root = removeHelper(root, level);
     }
 
+    // Search function to research all nodes to the graph with the given level
     RpgClass* search(int level) {
         return searchHelper(root, level);
     }
 
+    // Can print the graph sorted
     void inOrderTraversal() {
         inOrderTraversalHelper(root);
     }

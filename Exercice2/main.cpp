@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 #include "RPGclass.h"
 #include "balanceBST.h"
 
@@ -11,6 +12,9 @@ int main() {
     RpgClass Character2("Aro", "Sorcer", "Wand", 35);
     RpgClass Character3("Beatis", "Paladin", "Knife", 20);
     RpgClass Character4("Zanita", "Dwarf", "Sword", 15);
+    RpgClass Character5("Ramatrok", "Sorcer", "Book", 20);
+    RpgClass Character6("Angel", "Elf", "dagger", 15);
+    RpgClass Character7("Malik", "Elf", "dagger", 18);
 
     // Create a BST for storing RpgClass objects
     BST characterBST;
@@ -20,6 +24,9 @@ int main() {
     characterBST.insert(&Character2);
     characterBST.insert(&Character3);
     characterBST.insert(&Character4);
+    characterBST.insert(&Character5);
+    characterBST.insert(&Character6);
+    characterBST.insert(&Character7);
 
     // Print in-order traversal (sorted by level)
     cout << "In-order traversal of characters (sorted by level):" << endl;
