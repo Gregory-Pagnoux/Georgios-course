@@ -47,9 +47,9 @@ private:
             return new Node(character);
         }
         
-        if (character->getLevel() < node->data->getLevel()) {
+        if (character->getID() < node->data->getID()) {
             node->leftChild = insertHelper(node->leftChild, character);
-        } else if (character->getLevel() > node->data->getLevel()) {
+        } else if (character->getID() > node->data->getID()) {
             node->rightChild = insertHelper(node->rightChild, character);
         }
         return node;
@@ -58,9 +58,9 @@ private:
     Node* removeHelper(Node* node, int level) {
         if (node == nullptr) return node;
 
-        if (level < node->data->getLevel()) {
+        if (level < node->data->getID()) {
             node->leftChild = removeHelper(node->leftChild, level);
-        } else if (level > node->data->getLevel()) {
+        } else if (level > node->data->getID()) {
             node->rightChild = removeHelper(node->rightChild, level);
         } else {
             if (node->leftChild == nullptr) {
@@ -75,7 +75,7 @@ private:
 
             Node* temp = findMin(node->rightChild);
             node->data = temp->data;
-            node->rightChild = removeHelper(node->rightChild, temp->data->getLevel());
+            node->rightChild = removeHelper(node->rightChild, temp->data->getID());
         }
         return node;
     }
