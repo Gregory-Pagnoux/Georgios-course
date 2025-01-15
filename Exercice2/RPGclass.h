@@ -7,7 +7,7 @@ class RpgClass {
 public:
     // Constructor
     RpgClass() : name(""), playerClass(""), weaponType(""), level(0) , ID(0){}
-    RpgClass(string n, string x, string y, int a, int id) : name(n), playerClass(x), weaponType(y), level(a) {}
+    RpgClass(string n, string x, string y, int a, int id) : name(n), playerClass(x), weaponType(y), level(a), ID(id){}
 
     // Getters
     string getName() const { return name; }

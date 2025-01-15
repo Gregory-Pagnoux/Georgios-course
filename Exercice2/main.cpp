@@ -29,7 +29,7 @@ int main() {
     characterBST.insert(&Character7);
 
     // Print in-order traversal (sorted by level)
-    cout << "In-order traversal of characters (sorted by level):" << endl;
+    cout << "In-order traversal of characters (sorted by ID):" << endl;
     characterBST.inOrderTraversal();
 
     // Search for a character by level
