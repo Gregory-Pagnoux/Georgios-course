@@ -101,6 +101,7 @@ private:
         if (node != nullptr) {
             inOrderTraversalHelper(node->leftChild);
             cout << "Name: " << node->data->getName() << ", Level: " << node->data->getLevel() << endl;
+            //cout << "Left child: " << node->leftChild << ", Right child: " << node->rightChild << endl;
             inOrderTraversalHelper(node->rightChild);
         }
     }
